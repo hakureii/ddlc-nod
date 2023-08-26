@@ -4,9 +4,20 @@ body {
   background-size: 10px 10px;
   background-position: 0 0, 5px 5px;
 }
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .logo {
   width: 65%;
   transition: transform 0.5s ease-in-out;
+  animation: logoAnimation 1s ease-in-out;
 }
 
 .logo:hover {
