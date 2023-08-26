@@ -1,0 +1,20 @@
+body {
+  background-color: #FFEEEE;
+  background-image: radial-gradient(#FFFFFF 20%,transparent 20%),radial-gradient(#FFFFFF 20%,transparent 20%);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+}
+.logo {
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
